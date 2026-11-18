@@ -15,6 +15,18 @@
 
 int main(void)
 {
+    int goats =12;
+    float weight =25.5;
+    char category ='A';
+
+    float totalweight = goats * weight;
+
+    printf("number of goats: %d\n" ,goats);
+    printf("weight of each goat :%f\n" ,weight);
+    printf("category :%c\n" ,category );
+    printf("total weight :%.2f\n" ,totalweight);
+
+
     /* TODO: Declare and initialise an int variable */
     /* TODO: Declare and initialise a float variable */
     /* TODO: Declare and initialise a double variable */
